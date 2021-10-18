@@ -5,6 +5,7 @@ import Container from "@components/Container/";
 import styles from "@styles/Home.module.scss";
 import data from "@data/products.json";
 import Button from "@components/button/Button";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -54,10 +55,10 @@ export default function Home() {
       <footer className={styles.footer}>
         <p>&copy; Fritz Gerlin sellPoke {new Date().getFullYear()}</p>
       </footer>
-      <script
+      <Script
         async
         src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"
-      ></script>
+      />
       <div
         hidden
         id="snipcart"
