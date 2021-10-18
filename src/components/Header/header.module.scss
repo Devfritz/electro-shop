@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  background-color: #09091a;
+  padding: 0.5em 0;
+  color: white;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerTitle {
+  font-size: 2em;
+}
+
+.headerCart {
+  button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #fff;
+    padding: 0.5rem;
+  }
+
+  p {
+    margin-left: 0.5rem;
+  }
+}

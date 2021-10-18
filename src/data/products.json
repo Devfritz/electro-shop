@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "airpods",
+    "price": 200,
+    "image": "/images/airpods.jpg"
+  },
+  {
+    "id": 2,
+    "name": "alexa",
+    "price": 700,
+    "image": "/images/alexa.jpg"
+  },
+  {
+    "id": 3,
+    "name": "camera",
+    "price": 400,
+    "image": "/images/camera.jpg"
+  },
+  {
+    "id": 4,
+    "name": "mouse",
+    "price": 50,
+    "image": "/images/mouse.jpg"
+  },
+  {
+    "id": 5,
+    "name": "phone",
+    "price": 400,
+    "image": "/images/phone.jpg"
+  },
+  {
+    "id": 6,
+    "name": "playstation",
+    "price": 750,
+    "image": "/images/playstation.jpg"
+  }
+]
