@@ -12,7 +12,7 @@ const Header = () => {
         <div className={styles.headerCart}>
           <button className="snipcart-checkout">
             <FaShoppingCart />
-            <span className="snipcart-total-price">...</span>
+            <span className="snipcart-total-price">.,</span>
           </button>
         </div>
       </Container>
@@ -20,4 +20,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header;-
