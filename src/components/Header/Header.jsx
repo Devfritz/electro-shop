@@ -8,11 +8,11 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <Container className={styles.headerContainer}>
-        <p className={styles.headerTitle}>SellPoke</p>
+        <p className={styles.headerTitle}>Electro Shop</p>
         <div className={styles.headerCart}>
           <button className="snipcart-checkout">
-            <FaShoppingCart />
-            <span className="snipcart-total-price">.,</span>
+            <FaShoppingCart size={30} />
+            <span className="snipcart-total-price"></span>
           </button>
         </div>
       </Container>
@@ -20,4 +20,4 @@ const Header = () => {
   );
 };
 
-export default Header;-
+export default Header;

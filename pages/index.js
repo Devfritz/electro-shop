@@ -24,6 +24,8 @@ export default function Home() {
       <Header />
       <main>
         <Container>
+          <h1 className={styles.headerTitle}>Electro Shop .</h1>
+          <h2 className={styles.subtitle}>Available Products </h2>
           <section className={styles.productCard}>
             {data.map((product) => (
               <article key={product.id} className={styles.product}>
